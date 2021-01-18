@@ -32,8 +32,8 @@ router.post('/email', function(req, res) {
     try {
         // Email service
         const transporter = nodemailer.createTransport({
-                service: 'gmail',
-                auth: {
+            service: 'gmail',
+            auth: {
                 user: 'funkymonkeyblogemail@gmail.com',
                 pass: 'fmonkey123!'
             }
@@ -42,7 +42,7 @@ router.post('/email', function(req, res) {
         // Send email here
         const mailOptions = {
             from: 'funkymonkeyblogemail@gmail.com',
-            to: req.body.email, // Your email goes here
+            to: 'brianhd18@gmail.com', // Replace this with your email
             subject: 'Sending Email using Node.js',
             html: `<p>${req.body.email} sent you a message:</p><br>${req.body.message}`
         };
