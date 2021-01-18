@@ -1,0 +1,29 @@
+# blog-email
+
+This is a node server that uses REST to create an api to send emails from a blog
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+npm install # install packages
+```
+
+## Usage
+To start the server
+
+```bash
+node index.js
+```
+
+or run the nodemon server (allows updates without interrupting server)
+```bash
+nodemon index.js
+```
+
+## Resources
+[Node](https://nodejs.dev/learn)
+[Express](https://expressjs.com/)
+[Nodemailer](https://nodemailer.com/about/)
+[Nodemon](https://nodemon.io/)
